@@ -8,6 +8,6 @@ namespace LLD.Problems.ParkingLotClasses
 {
     internal class ParkingLot
     {
-
+		string vehical {get; set;}
     }
 }
