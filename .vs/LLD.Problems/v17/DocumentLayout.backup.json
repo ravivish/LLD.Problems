@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\LLD.Problems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D9111F-3E12-4CBB-B0B8-37CC9C9E2A78}|LLD.Problems\\LLD.Problems.csproj|d:\\dev\\lld.problems\\lld.problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D9111F-3E12-4CBB-B0B8-37CC9C9E2A78}|LLD.Problems\\LLD.Problems.csproj|solutionrelative:lld.problems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\LLD.Problems\\LLD.Problems\\Program.cs",
+              "RelativeDocumentMoniker": "LLD.Problems\\Program.cs",
+              "ToolTip": "D:\\Dev\\LLD.Problems\\LLD.Problems\\Program.cs",
+              "RelativeToolTip": "LLD.Problems\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T04:19:07.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
