@@ -15,5 +15,4 @@
 3. The **ParkingSpot** class represents an individual parking spot and tracks the availability and the parked vehicle.
 4. The **Vehicle** class is an abstract base class for different types of vehicles. It is extended by Car, Motorcycle, and Truck classes.
 5. The **VehicleType** enum defines the different types of vehicles supported by the parking lot.
-6. Multi-threading is achieved through the use of synchronized keyword on critical sections to ensure thread safety.
-7. The **Main** class demonstrates the usage of the parking lot system.
+6. The **Main** class demonstrates the usage of the parking lot system.

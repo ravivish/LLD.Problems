@@ -1,10 +1,11 @@
 ﻿using LLD.Problems.ParkingLotClasses;
+using LLD.Problems.VendingMachine;
 
 namespace LLD.Problems
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             #region ParkingLot
 
@@ -13,7 +14,7 @@ namespace LLD.Problems
 
             #region VendingMachine
 
-            ParkingLotDemo.SetupMain();
+            VendingMachingDemo.SetupMain();
             #endregion  
 
 
