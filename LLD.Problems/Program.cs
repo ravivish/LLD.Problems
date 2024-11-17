@@ -1,10 +1,15 @@
-﻿namespace LLD.Problems
+﻿using LLD.Problems.ParkingLotClasses;
+
+namespace LLD.Problems
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
+            #region ParkingLot
+
+            ParkingLotDemo.SetupMain();
+            #endregion  
         }
     }
 }
