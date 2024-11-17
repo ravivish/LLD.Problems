@@ -12,14 +12,14 @@
             this.vehicleType = vehicleType;
         }
 
-        public bool isAvailable()
+        public bool IsAvailable()
         {
             return parkedVehicle == null;
         }
 
-        public void parkVehicle(Vehicle vehicle)
+        public void ParkVehicle(Vehicle vehicle)
         {
-            if (isAvailable() && vehicle.VehicleType == vehicleType)
+            if (IsAvailable() && vehicle.VehicleType == vehicleType)
             {
                 parkedVehicle = vehicle;
             }
@@ -29,22 +29,22 @@
             }
         }
 
-        public void unparkVehicle()
+        public void UnparkVehicle()
         {
             parkedVehicle = null;
         }
 
-        public VehicleType getVehicleType()
+        public VehicleType GetVehicleType()
         {
             return vehicleType;
         }
 
-        public Vehicle getParkedVehicle()
+        public Vehicle GetParkedVehicle()
         {
             return parkedVehicle;
         }
 
-        public int getSpotNumber()
+        public int GetSpotNumber()
         {
             return spotNumber;
         }

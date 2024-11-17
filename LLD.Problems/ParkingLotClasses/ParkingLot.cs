@@ -17,7 +17,7 @@ namespace LLD.Problems.ParkingLotClasses
             levels = new List<Level>();
         }
 
-        public static ParkingLot getInstance()
+        public static ParkingLot GetInstance()
         {
             if (instance == null)
             {
@@ -26,12 +26,12 @@ namespace LLD.Problems.ParkingLotClasses
             return instance;
         }
 
-        public void addLevel(Level level)
+        public void AddLevel(Level level)
         {
             levels.Add(level);
         }
 
-        public bool parkVehicle(Vehicle vehicle)
+        public bool ParkVehicle(Vehicle vehicle)
         {
             foreach (Level level in levels)
             {
@@ -45,7 +45,7 @@ namespace LLD.Problems.ParkingLotClasses
             return false;
         }
 
-        public bool unparkVehicle(Vehicle vehicle)
+        public bool UnparkVehicle(Vehicle vehicle)
         {
             foreach (Level level in levels)
             {
@@ -57,7 +57,7 @@ namespace LLD.Problems.ParkingLotClasses
             return false;
         }
 
-        public void displayAvailability()
+        public void DisplayAvailability()
         {
             foreach (Level level in levels)
             {
@@ -128,9 +128,9 @@ namespace LLD.Problems.ParkingLotClasses
         {
             foreach (ParkingSpot spot in parkingSpots)
             {
-                if (spot.isAvailable() && spot.getVehicleType() == vehicle.VehicleType)
+                if (spot.IsAvailable() && spot.GetVehicleType() == vehicle.VehicleType)
                 {
-                    spot.parkVehicle(vehicle);
+                    spot.ParkVehicle(vehicle);
                     return true;
                 }
             }
@@ -141,9 +141,9 @@ namespace LLD.Problems.ParkingLotClasses
         {
             foreach (ParkingSpot spot in parkingSpots)
             {
-                if (!spot.isAvailable() && spot.getParkedVehicle().Equals(vehicle))
+                if (!spot.IsAvailable() && spot.GetParkedVehicle().Equals(vehicle))
                 {
-                    spot.unparkVehicle();
+                    spot.UnparkVehicle();
                     return true;
                 }
             }
@@ -155,7 +155,7 @@ namespace LLD.Problems.ParkingLotClasses
             Console.WriteLine("Level " + floor + " Availability:");
             foreach (ParkingSpot spot in parkingSpots)
             {
-                Console.WriteLine("Spot " + spot.getSpotNumber() + ": " + (spot.isAvailable() ? "Available For" : "Occupied By ") + " " + spot.getVehicleType());
+                Console.WriteLine("Spot " + spot.GetSpotNumber() + ": " + (spot.IsAvailable() ? "Available For" : "Occupied By ") + " " + spot.GetVehicleType());
             }
         }
 

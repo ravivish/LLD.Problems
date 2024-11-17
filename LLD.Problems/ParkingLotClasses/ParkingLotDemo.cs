@@ -11,27 +11,27 @@ namespace LLD.Problems.ParkingLotClasses
     {
         public static void SetupMain()
         {
-            ParkingLot parkingLot = ParkingLot.getInstance();
-            parkingLot.addLevel(new Level(1, 100));
-            parkingLot.addLevel(new Level(2, 80));
+            ParkingLot parkingLot = ParkingLot.GetInstance();
+            parkingLot.AddLevel(new Level(1, 100));
+            parkingLot.AddLevel(new Level(2, 80));
 
             Vehicle car = new Car("ABC123");
             Vehicle truck = new Truck("XYZ789");
             Vehicle motorcycle = new Motorcycle("M1234");
 
             // Park vehicles
-            parkingLot.parkVehicle(car);
-            parkingLot.parkVehicle(truck);
-            parkingLot.parkVehicle(motorcycle);
+            parkingLot.ParkVehicle(car);
+            parkingLot.ParkVehicle(truck);
+            parkingLot.ParkVehicle(motorcycle);
 
             // Display availability
-            parkingLot.displayAvailability();
+            parkingLot.DisplayAvailability();
 
             // Unpark vehicle
-            parkingLot.unparkVehicle(motorcycle);
+            parkingLot.UnparkVehicle(motorcycle);
 
             // Display updated availability
-            parkingLot.displayAvailability();
+            parkingLot.DisplayAvailability();
         }
     }
 }
