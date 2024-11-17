@@ -8,8 +8,6 @@
 5. The system should track the availability of parking spots and provide real-time information to customers.
 6. The system should handle multiple entry and exit points and support concurrent access.
 
-## Implementations
-#### [C# Implementation](../solutions/c#/ParkingLot/)
 
 ## Classes, Interfaces and Enumerations
 1. The **ParkingLot** class follows the Singleton pattern to ensure only one instance of the parking lot exists. It maintains a list of levels and provides methods to park and unpark vehicles.
