@@ -3,7 +3,7 @@
 ## Link of The Problems
 
 ### Easy 
-1. [Parking Lot](./LLD.Problems/ParkingLotClasses/ParkingLotDemo.cs)
+1. [Parking Lot](./LLD.Problems/ParkingLotClasses/)
 2. Design a Vending Machine
 3. Design Stack Overflow
 4. Design Logging Framework

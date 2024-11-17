@@ -10,6 +10,13 @@ namespace LLD.Problems
 
             ParkingLotDemo.SetupMain();
             #endregion  
+
+            #region VendingMachine
+
+            ParkingLotDemo.SetupMain();
+            #endregion  
+
+
         }
     }
 }
