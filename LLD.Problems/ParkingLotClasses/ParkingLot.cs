@@ -9,7 +9,7 @@ namespace LLD.Problems.ParkingLotClasses
 {
     internal class ParkingLot
     {
-        private static ParkingLot instance;
+        private static ParkingLot? instance;
         private readonly List<Level> levels;
 
         private ParkingLot()
@@ -35,7 +35,7 @@ namespace LLD.Problems.ParkingLotClasses
         {
             foreach (Level level in levels)
             {
-                if (level.parkVehicle(vehicle))
+                if (level.ParkVehicle(vehicle))
                 {
                     Console.WriteLine("Vehicle parked successfully.");
                     return true;
@@ -49,7 +49,7 @@ namespace LLD.Problems.ParkingLotClasses
         {
             foreach (Level level in levels)
             {
-                if (level.unparkVehicle(vehicle))
+                if (level.UnparkVehicle(vehicle))
                 {
                     return true;
                 }
@@ -61,7 +61,7 @@ namespace LLD.Problems.ParkingLotClasses
         {
             foreach (Level level in levels)
             {
-                level.displayAvailability();
+                level.DisplayAvailability();
             }
         }
     }
@@ -124,7 +124,7 @@ namespace LLD.Problems.ParkingLotClasses
             }
         }
 
-        public bool parkVehicle(Vehicle vehicle)
+        public bool ParkVehicle(Vehicle vehicle)
         {
             foreach (ParkingSpot spot in parkingSpots)
             {
@@ -137,7 +137,7 @@ namespace LLD.Problems.ParkingLotClasses
             return false;
         }
 
-        public bool unparkVehicle(Vehicle vehicle)
+        public bool UnparkVehicle(Vehicle vehicle)
         {
             foreach (ParkingSpot spot in parkingSpots)
             {
@@ -150,7 +150,7 @@ namespace LLD.Problems.ParkingLotClasses
             return false;
         }
 
-        public void displayAvailability()
+        public void DisplayAvailability()
         {
             Console.WriteLine("Level " + floor + " Availability:");
             foreach (ParkingSpot spot in parkingSpots)

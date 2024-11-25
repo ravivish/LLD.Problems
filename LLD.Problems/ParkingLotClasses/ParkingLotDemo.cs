@@ -15,9 +15,9 @@ namespace LLD.Problems.ParkingLotClasses
             parkingLot.AddLevel(new Level(1, 100));
             parkingLot.AddLevel(new Level(2, 80));
 
-            Vehicle car = new Car("ABC123");
-            Vehicle truck = new Truck("XYZ789");
-            Vehicle motorcycle = new Motorcycle("M1234");
+            Vehicle car = new Car(vehicleNumber: "ABC123");
+            Vehicle truck = new Truck(vehicleNumber: "XYZ789");
+            Vehicle motorcycle = new Motorcycle(vehicleNumber: "M1234");
 
             // Park vehicles
             parkingLot.ParkVehicle(car);
