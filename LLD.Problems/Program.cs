@@ -1,4 +1,5 @@
-﻿using LLD.Problems.ParkingLotClasses;
+﻿using LLD.Problems.DataStructures;
+using LLD.Problems.ParkingLotClasses;
 using LLD.Problems.VendingMachine;
 
 namespace LLD.Problems
@@ -10,11 +11,15 @@ namespace LLD.Problems
             #region ParkingLot
 
             //ParkingLotDemo.SetupMain();
-            #endregion  
+            #endregion
 
             #region VendingMachine
 
-            VendingMachingDemo.SetupMain();
+            //VendingMachingDemo.SetupMain();
+            #endregion
+
+            #region Data Structure Implementation
+            DsImplBase.SetUpMap();
             #endregion  
 
 
