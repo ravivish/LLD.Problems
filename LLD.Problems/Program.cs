@@ -9,7 +9,7 @@ namespace LLD.Problems
         {
             #region ParkingLot
 
-            ParkingLotDemo.SetupMain();
+            //ParkingLotDemo.SetupMain();
             #endregion  
 
             #region VendingMachine
