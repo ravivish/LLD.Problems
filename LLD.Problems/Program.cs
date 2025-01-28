@@ -2,27 +2,26 @@
 using LLD.Problems.ParkingLotClasses;
 using LLD.Problems.VendingMachine;
 
-namespace LLD.Problems
+namespace LLD.Problems;
+
+internal class Program
 {
-    internal class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            #region ParkingLot
+        #region ParkingLot
 
-            //ParkingLotDemo.SetupMain();
-            #endregion
+        //ParkingLotDemo.SetupMain();
+        #endregion
 
-            #region VendingMachine
+        #region VendingMachine
 
-            //VendingMachingDemo.SetupMain();
-            #endregion
+        //VendingMachingDemo.SetupMain();
+        #endregion
 
-            #region Data Structure Implementation
-            DsImplBase.SetUpMap();
-            #endregion  
+        #region Data Structure Implementation
+        DsImplBase.SetUpMap();
+        #endregion  
 
 
-        }
     }
 }
