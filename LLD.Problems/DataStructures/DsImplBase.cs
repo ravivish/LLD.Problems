@@ -4,6 +4,7 @@ internal class DsImplBase
 {
     internal static void SetUpMap()
     {
+        #region Map Setup
         //CheckLoadFactorOfDictionary();
 
         var map = new Map<string, int>();
@@ -20,8 +21,10 @@ internal class DsImplBase
             string key = $"Key{i}";
             Console.WriteLine("Key:{0}, Value:{1}",key, map.GetValue(key));
         }
+
+        #endregion
     }
-    
+
 
     static void CheckLoadFactorOfDictionary()
     {
