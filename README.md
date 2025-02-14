@@ -3,8 +3,9 @@
 Note: The problems listed here are for my practice and [actual source](https://github.com/ashishps1/awesome-low-level-design)
 
 ## Link of The Problems
-[Map Implementation](./LLD.Problems/DataStructures/)
-
+[Map Implementation](./LLD.Problems/DataStructures/)  
+[LRU Implementation](./LLD.Problems/)  
+[Recommendation System](./LLD.Problems/) 
 ### Easy 
 1. [Parking Lot](./LLD.Problems/ParkingLotClasses/)
 2. [Design a Vending Machine](./LLD.Problems/VendingMachine/)
