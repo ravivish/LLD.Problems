@@ -19,9 +19,10 @@ internal class Program
         #endregion
 
         #region Data Structure Implementation
-        DsImplBase.SetUpMap();
-        #endregion  
+        //DsImplBase.SetUpMap();
 
+        DsImplBase.SetUpLRU();
+        #endregion  
 
     }
 }

@@ -1,7 +1,28 @@
-﻿namespace LLD.Problems.DataStructures;
+﻿
+namespace LLD.Problems.DataStructures;
 
 internal class DsImplBase
 {
+    #region LRU
+    internal static void SetUpLRU()
+    {
+        var lruCache = new LRUCache<int, string>(3);
+
+        lruCache.Put(1, "A");
+        lruCache.Put(2, "B");
+        lruCache.Put(3, "C");
+
+        Console.WriteLine(lruCache.Get(1)); // Should print "A"
+
+        lruCache.Put(4, "D"); // This should evict key 2 ("B")
+
+        Console.WriteLine(lruCache.Get(2)); // Should print default (null or empty string)
+        Console.WriteLine(lruCache.Get(3)); // Should print "C"
+        Console.WriteLine(lruCache.Get(4)); // Should print "D"
+    }
+    #endregion
+
+    #region Map
     internal static void SetUpMap()
     {
         #region Map Setup
@@ -48,4 +69,6 @@ internal class DsImplBase
             return buckets.Length;
         }
     }
+
+    #endregion
 }
