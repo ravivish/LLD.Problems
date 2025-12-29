@@ -1,6 +1,4 @@
 ﻿using LLD.Problems.DataStructures;
-using LLD.Problems.ParkingLotClasses;
-using LLD.Problems.VendingMachine;
 
 namespace LLD.Problems;
 
